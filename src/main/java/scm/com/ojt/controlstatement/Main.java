@@ -42,7 +42,7 @@ public class Main {
             System.out.println(num1 + " * " + num2 + " = " + result);
             break;
         case '/':
-            result = num1 * num2;
+            result = num1 / num2;
             System.out.println(num1 + " / " + num2 + " = " + result);
             break;
         default:
@@ -62,13 +62,13 @@ public class Main {
         if (pc == 0) {
             System.out.println("Please Do Assignment. Fighting!");
         } else if (pc > 0 && pc < 50) {
-            System.out.println("Good Job: Keep Go on ");
+            System.out.println("Good Job: Keep Go on. ");
         } else if (pc > 0 && pc < 100) {
-            System.out.println("Great! You already finished hlaf project");
+            System.out.println("Great! You already finished hlaf project.");
         } else if (pc > 0 && pc == 100) {
-            System.out.println("Great Great! You finish project");
+            System.out.println("Great Great! You finish project.");
         } else {
-            System.out.println("Invalid Percentage");
+            System.out.println("Invalid Percentage.");
         }
     }
 
